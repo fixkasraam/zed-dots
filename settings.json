@@ -1,0 +1,106 @@
+{
+  "vim_mode": true,
+  "relative_line_numbers": "enabled",
+  "format_on_save": "on",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false,
+  },
+  "icon_theme": {
+    "mode": "light",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)",
+  },
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "GitHub Dark High Contrast",
+  },
+
+  // colors
+  "theme_overrides": {
+    "GitHub Dark High Contrast": {
+      "border.variant": "#ffffff", // border under path
+      "border": "#ffffff",
+      "title_bar.background": "#000000",
+      "panel.background": "#000000",
+      "panel.focused_border": "#ffffff",
+      "players": [
+        {
+          "cursor": "#ffffff",
+        },
+      ],
+      "syntax": {
+        "comment": {
+          "font_style": "italic",
+        },
+        "comment.doc": {
+          "font_style": "italic",
+        },
+      },
+    },
+  },
+
+  // UI clean up
+  "title_bar": {
+    "show_onboarding_banner": false,
+    "show_project_items": false,
+    "show_sign_in": false,
+    "show_user_menu": false,
+  },
+  "tab_bar": {
+    "show": false,
+  },
+  "toolbar": {
+    "quick_actions": false,
+  },
+  //   "status_bar": {
+  //     "experimental.show": false,
+  //   },
+  //   "project_panel": {
+  //     "dock": "right",
+  //     "default_width": 400,
+  //     "starts_open": false,
+  //     // these two need restart app
+  //     "scrollbar": {
+  //       "show": "never",
+  //     },
+  //     "indent_guides": {
+  //       "show": "never",
+  //     },
+  //   },
+  //   "file_finder": {
+  //     "modal_max_width": "small",
+  //   },
+  //   "scrollbar": {
+  //     "show": "never",
+  //   },
+  "gutter": {
+    "min_line_number_digits": 0,
+    "folds": false,
+  },
+  "indent_guides": {
+    "enabled": false,
+  },
+  "ui_font_family": "FiraMono Nerd Font Mono",
+  "ui_font_size": 18,
+  "buffer_font_family": "FiraMono Nerd Font Mono",
+  "buffer_font_size": 18,
+  "buffer_line_height": {
+    "custom": 1.8,
+  },
+  "agent_ui_font_family": "FiraMono Nerd Font Mono",
+  "agent_buffer_font_size": 18,
+
+  // editing area
+  "cursor_shape": "bar",
+  "cursor_blink": false,
+
+  // autocomplte and hints
+  "tab_size": 2,
+  "extend_comment_on_newline": false,
+  // "auto_update": true
+  "restore_on_file_reopen": false,
+  "restore_on_startup": "empty_tab",
+}
