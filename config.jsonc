@@ -1,0 +1,67 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "small",
+    "color": {
+      "1": "white",
+    },
+    "padding": {
+      "left": 1,
+    },
+  },
+  "display": {
+    "constants": ["██ "],
+    "separator": " ",
+    "key": {
+      "width": 16,
+    },
+  },
+  "modules": [
+    {
+      "key": " user",
+      "keyColor": "38;2;64;64;64",
+      "format": "fixkasraam",
+      "type": "custom",
+    },
+    {
+      "key": " kernel",
+      "keyColor": "38;2;96;96;96",
+      "type": "kernel",
+    },
+    {
+      "key": " shell",
+      "keyColor": "38;2;112;112;112",
+      "type": "shell",
+    },
+    {
+      "key": " packages",
+      "keyColor": "38;2;128;128;128",
+      "type": "packages",
+    },
+    {
+      "key": " wm",
+      "keyColor": "38;2;160;160;160",
+      "type": "wm",
+    },
+    {
+      "key": " disk",
+      "keyColor": "38;2;192;192;192",
+      "type": "disk",
+    },
+    {
+      "key": "󰍛 memory",
+      "keyColor": "38;2;224;224;224",
+      "type": "memory",
+    },
+    {
+      "type": "colors",
+      "key": " colors",
+      "keyColor": "38;2;255;255;255",
+      "symbol": "diamond",
+      "block": {
+        "width": 3,
+        "range": [0, 8],
+      },
+    },
+  ],
+}
